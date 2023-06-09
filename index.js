@@ -62,7 +62,7 @@
 			rotate * index
 		}deg) skewY(-${skewY}deg)`;
 
-		//=====< Thêm background-color so le nhau và căn giữa cho các thẻ text>=====
+		//=====< Thêm so le nhau và căn giữa cho các thẻ text>=====
 		if (index % 2 == 0) {
 			elm.innerHTML = `<p style="transform: skewY(${skewY}deg) rotate(${
 				rotate / 2
